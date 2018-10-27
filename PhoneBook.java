@@ -14,11 +14,15 @@ public class PhoneBook{
             }
         }
     }
-    
+    public void printPhoneBook(){
+         for (Person element: this.phoneBook){
+               System.out.println(element.name);   
+        }
+    }
     public static void main(String[] arg){
         Person newP = new Person("Nata","56433");
         PhoneBook phoneBk = new PhoneBook(new Person("Nata","56433"));
         phoneBk.addPerson(newP);
-        System.out.println(phoneBk.phoneBook);
+        phoneBk.printPhoneBook();
     }
 }
