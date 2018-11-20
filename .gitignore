@@ -1,2 +1,8 @@
 
 *.class
+.idea/modules.xml
+.idea/eltexSimpleJavaExample.iml
+.idea/misc.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/workspace.xml
